@@ -1,0 +1,1468 @@
+
+#=======================================================================
+data_global
+#=======================================================================
+
+_audit_creation_method                   'Jana2020 1.3.53'
+
+
+# 1. PROCESSING SUMMARY (IUCr Office Use Only)
+
+_journal_date_recd_electronic            ?
+_journal_date_to_coeditor                ?
+_journal_date_from_coeditor              ?
+_journal_date_accepted                   ?
+_journal_date_printers_first             ?
+_journal_date_printers_final             ?
+_journal_date_proofs_out                 ?
+_journal_date_proofs_in                  ?
+_journal_coeditor_name                   ?
+_journal_coeditor_code                   ?
+_journal_coeditor_notes
+; ?
+;
+_journal_techeditor_code                 ?
+_journal_paper_category                  ?
+_journal_techeditor_notes
+; ?
+;
+_journal_coden_ASTM                      ?
+_journal_name_full                       'Acta Crystallographica Section C'
+_journal_year                            ?
+_journal_volume                          ?
+_journal_issue                           ?
+_journal_page_first                      ?
+_journal_page_last                       ?
+_journal_suppl_publ_number               ?
+_journal_suppl_publ_pages                ?
+
+#=======================================================================
+
+# 2. SUBMISSION DETAILS
+
+_publ_contact_author_name                ?
+_publ_contact_author_address
+; ?
+;
+_publ_contact_author_email               ?
+_publ_contact_author_fax                 ?
+_publ_contact_author_phone               ?
+
+_publ_requested_journal                  'Acta Crystallographica Section C'
+_publ_requested_category                 ?
+
+_publ_contact_letter
+; ?
+;
+
+#=======================================================================
+
+# 3. TITLE AND AUTHOR LIST
+
+_publ_section_title
+; ?
+;
+_publ_section_title_footnote
+; ?
+;
+loop_
+ _publ_author_name
+ _publ_author_footnote
+ _publ_author_address
+; ?      # name
+;
+; ?      # footnote
+;
+; ?      # address
+;
+
+#=======================================================================
+
+# 4. TEXT
+
+_publ_section_synopsis
+; ?
+;
+_publ_section_abstract
+; ?
+;
+_publ_section_comment
+; ?
+;
+_publ_section_introduction
+; ?
+;
+_publ_section_experimental
+; ?
+;
+_publ_section_exptl_prep
+; ?
+;
+_publ_section_exptl_refinement
+; ?
+;
+_publ_section_exptl_solution
+; ?
+;
+_publ_section_discussion
+; ?
+;
+_publ_section_acknowledgements
+; ?
+;
+_publ_section_references
+;
+;
+_publ_section_figure_captions
+; ?
+;
+_publ_section_table_legends
+; ?
+;
+
+#=======================================================================
+data_I
+#=======================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic
+; ?
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Cs0.25 Cu0.5 I0.75'
+_chemical_formula_weight                 160.2
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+#=======================================================================
+
+# 6. CRYSTAL DATA
+
+_symmetry_cell_setting                   orthorhombic
+_symmetry_space_group_name_H-M           'C m c m'
+_symmetry_space_group_name_Hall          '-C -2x;-2yc;-2zc'
+_symmetry_Int_Tables_number              63
+
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1   x,y,z
+ 2   -x,-y,z+1/2
+ 3   -x,y,-z+1/2
+ 4   x,-y,-z
+ 5   -x,-y,-z
+ 6   x,y,-z+1/2
+ 7   x,-y,z+1/2
+ 8   -x,y,z
+ 9   x+1/2,y+1/2,z
+ 10  -x+1/2,-y+1/2,z+1/2
+ 11  -x+1/2,y+1/2,-z+1/2
+ 12  x+1/2,-y+1/2,-z
+ 13  -x+1/2,-y+1/2,-z
+ 14  x+1/2,y+1/2,-z+1/2
+ 15  x+1/2,-y+1/2,z+1/2
+ 16  -x+1/2,y+1/2,z
+
+_cell_length_a                           10.47900(10)
+_cell_length_b                           13.03900(10)
+_cell_length_c                           6.06250(10)
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             828.354(17)
+
+loop_
+ _twin_individual_id
+ _twin_individual_mass_fraction_refined
+ _twin_individual_twin_matrix_11
+ _twin_individual_twin_matrix_12
+ _twin_individual_twin_matrix_13
+ _twin_individual_twin_matrix_21
+ _twin_individual_twin_matrix_22
+ _twin_individual_twin_matrix_23
+ _twin_individual_twin_matrix_31
+ _twin_individual_twin_matrix_32
+ _twin_individual_twin_matrix_33
+ ? ? ? ? ? ? ? ? ? ? ?
+
+_cell_formula_units_Z                    16
+
+_cell_measurement_reflns_used            ?
+_cell_measurement_theta_min              ?
+_cell_measurement_theta_max              ?
+_cell_measurement_temperature            293
+_cell_special_details
+; ?
+;
+
+_exptl_crystal_density_diffrn            5.1376
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_method            ?
+_exptl_crystal_F_000                     1088
+
+_exptl_absorpt_coefficient_mu            5.497
+_exptl_crystal_description               ?
+_exptl_crystal_size_max                  ?
+_exptl_crystal_size_mid                  ?
+_exptl_crystal_size_min                  ?
+_exptl_crystal_size_rad                  ?
+_exptl_crystal_colour                    ?
+_exptl_absorpt_correction_type           ?
+_exptl_absorpt_process_details           ?
+_exptl_absorpt_correction_T_min          ?
+_exptl_absorpt_correction_T_max          ?
+loop_
+ _exptl_crystal_face_index_h
+ _exptl_crystal_face_index_k
+ _exptl_crystal_face_index_l
+ _exptl_crystal_face_perp_dist
+ ? ? ? ?
+
+#=======================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details                   ?
+
+_diffrn_ambient_temperature              293
+_diffrn_source                           ?
+_diffrn_source_power                     ?
+_diffrn_source_voltage                   ?
+_diffrn_source_current                   ?
+_diffrn_radiation_type                   'X-ray'
+_diffrn_radiation_source                 ?
+_diffrn_radiation_wavelength             0.2481
+_diffrn_radiation_monochromator          ?
+_diffrn_measurement_device               ?
+_diffrn_measurement_device_type          ?
+_diffrn_detector                         ?
+_diffrn_detector_area_resol_mean         ?
+_diffrn_measurement_method               ?
+_diffrn_measurement_specimen_support     ?
+
+_diffrn_reflns_number                    13261
+_diffrn_reflns_theta_min                 1.46
+_diffrn_reflns_theta_max                 9.65
+_diffrn_reflns_theta_full                9.65
+_diffrn_measured_fraction_theta_max      1
+_diffrn_measured_fraction_theta_full     1
+_diffrn_reflns_av_R_equivalents          0.066
+_diffrn_reflns_av_unetI/netI             0.0038
+_diffrn_reflns_limit_h_min               -14
+_diffrn_reflns_limit_h_max               14
+_diffrn_reflns_limit_k_min               -17
+_diffrn_reflns_limit_k_max               17
+_diffrn_reflns_limit_l_min               -8
+_diffrn_reflns_limit_l_max               8
+_diffrn_reflns_reduction_process         ?
+
+_diffrn_standards_number                 ?
+_diffrn_standards_interval_count         ?
+_diffrn_standards_interval_time          ?
+_diffrn_standards_decay_%                ?
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+  ? ? ?
+
+_diffrn_radiation_probe                  X-ray
+
+#=======================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details
+; ?
+;
+
+_reflns_number_total                     609
+_reflns_number_gt                        605
+_reflns_threshold_expression             'I>2\s(I)'
+
+_refine_ls_structure_factor_coef         Fsqd
+_refine_ls_R_factor_gt                   0.0098
+_refine_ls_wR_factor_gt                  0.0259
+_refine_ls_R_factor_all                  0.0099
+_refine_ls_wR_factor_ref                 0.0260
+_refine_ls_goodness_of_fit_ref           1.1085
+_refine_ls_goodness_of_fit_gt            1.1077
+_refine_ls_restrained_S_gt               ?
+_refine_ls_restrained_S_all              ?
+_refine_ls_number_reflns                 609
+_refine_ls_number_parameters             37
+_refine_ls_number_restraints             0
+_refine_ls_number_constraints            0
+_refine_ls_weighting_scheme              sigma
+_refine_ls_weighting_details             'calc w=1/[\s^2^(Fo^2^)+(0.02P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_hydrogen_treatment            ?
+_refine_ls_shift/su_max                  0.0218
+_refine_ls_shift/su_mean                 0.0037
+_refine_diff_density_max                 0.31
+_refine_diff_density_min                 -0.37
+_refine_ls_extinction_method
+ 'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_extinction_coef               840(90)
+_refine_ls_extinction_expression         ?
+_refine_ls_abs_structure_details         ?
+_refine_ls_abs_structure_Flack           ?
+_refine_ls_abs_structure_Rogers          ?
+
+loop_
+ _atom_type_symbol
+ _atom_type_scat_dispersion_real
+ _atom_type_scat_dispersion_imag
+ _atom_type_scat_source
+ Cs  -0.2815  2.0398
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+ Cu   0.0994  0.1762
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+ I   -0.1121  1.7896
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+
+_computing_data_collection               ?
+_computing_cell_refinement               ?
+_computing_data_reduction                ?
+_computing_structure_solution            ?
+_computing_structure_refinement          ?
+_computing_molecular_graphics            ?
+_computing_publication_material          ?
+
+loop_
+ _restr_distance_atom_site_label_1
+ _restr_distance_site_symmetry_1
+ _restr_distance_atom_site_label_2
+ _restr_distance_site_symmetry_2
+ _restr_distance_target
+ _restr_distance_target_weight_param
+ ? ? ? ? ? ?
+
+loop_
+ _restr_angle_atom_site_label_1
+ _restr_angle_site_symmetry_1
+ _restr_angle_atom_site_label_2
+ _restr_angle_site_symmetry_2
+ _restr_angle_atom_site_label_3
+ _restr_angle_site_symmetry_3
+ _restr_angle_target
+ _restr_angle_target_weight_param
+ ? ? ? ? ? ? ? ?
+
+loop_
+ _restr_torsion_atom_site_label_1
+ _restr_torsion_site_symmetry_1
+ _restr_torsion_atom_site_label_2
+ _restr_torsion_site_symmetry_2
+ _restr_torsion_atom_site_label_3
+ _restr_torsion_site_symmetry_3
+ _restr_torsion_atom_site_label_4
+ _restr_torsion_site_symmetry_4
+ _restr_torsion_angle_target
+ _restr_torsion_weight_param
+ ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _restr_equal_distance_atom_site_label_1
+ _restr_equal_distance_site_symmetry_1
+ _restr_equal_distance_atom_site_label_2
+ _restr_equal_distance_site_symmetry_2
+ _restr_equal_distance_class_class_id
+ _restr_equal_distance_class_target_weight_param
+ ? ? ? ? ? ?
+
+loop_
+ _restr_equal_angle_atom_site_label_1
+ _restr_equal_angle_site_symmetry_1
+ _restr_equal_angle_atom_site_label_2
+ _restr_equal_angle_site_symmetry_2
+ _restr_equal_angle_atom_site_label_3
+ _restr_equal_angle_site_symmetry_3
+ _restr_equal_angle_class_class_id
+ _restr_equal_angle_class_target_weight_param
+ ? ? ? ? ? ? ? ?
+
+loop_
+ _restr_equal_torsion_atom_site_label_1
+ _restr_equal_torsion_site_symmetry_1
+ _restr_equal_torsion_atom_site_label_2
+ _restr_equal_torsion_site_symmetry_2
+ _restr_equal_torsion_atom_site_label_3
+ _restr_equal_torsion_site_symmetry_3
+ _restr_equal_torsion_atom_site_label_4
+ _restr_equal_torsion_site_symmetry_4
+ _restr_equal_torsion_class_class_id
+ _restr_equal_torsion_class_target_weight_param
+ ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_adp_type
+ _atom_site_U_iso_or_equiv
+ _atom_site_site_symmetry_multiplicity
+ _atom_site_occupancy
+ _atom_site_calc_flag
+ _atom_site_refinement_flags
+ _atom_site_disorder_assembly
+ _atom_site_disorder_group
+  i01 I 0.5 0.62208(3) 1.25 Uani 0.01305(6) 4 1 d . . .
+  i002 I 0.21730(4) 0.62105(2) 0.75 Uani 0.01732(5) 8 1 d . . .
+  cs00 Cs 0.5 0.82961(3) 1.75 Uani 0.02062(6) 4 1 d . . .
+  cu04 Cu 0.35320(6) 0.5 1 Uani 0.02073(8) 8 1 d . . .
+
+loop_
+ _atom_site_aniso_label
+ _atom_site_aniso_type_symbol
+ _atom_site_aniso_U_11
+ _atom_site_aniso_U_22
+ _atom_site_aniso_U_33
+ _atom_site_aniso_U_12
+ _atom_site_aniso_U_13
+ _atom_site_aniso_U_23
+ i01 I 0.01442(11) 0.01114(10) 0.01359(10) 0 0 0
+ i002 I 0.01747(10) 0.02136(9) 0.01312(9) 0.00651(4) 0 0
+ cs00 Cs 0.02183(11) 0.02790(11) 0.01212(9) 0 0 0
+ cu04 Cu 0.01925(14) 0.01646(14) 0.02648(15) 0 0 0.00299(8)
+
+loop_
+ _jana_atom_site_ADP_C_label
+ _jana_atom_site_ADP_C_type_symbol
+ _jana_atom_site_ADP_C_111
+ _jana_atom_site_ADP_C_112
+ _jana_atom_site_ADP_C_113
+ _jana_atom_site_ADP_C_122
+ _jana_atom_site_ADP_C_123
+ _jana_atom_site_ADP_C_133
+ _jana_atom_site_ADP_C_222
+ _jana_atom_site_ADP_C_223
+ _jana_atom_site_ADP_C_233
+ _jana_atom_site_ADP_C_333
+ i01 I 0 0.00000(2) 0 0 0 0 0.00005(3) 0 -0.00003(5) 0
+ i002 I -0.00009(4) -0.000016(17) 0 -0.000002(14) 0 -0.00006(7) 0.00003(2)
+ 0 0.00000(4) 0
+ cs00 Cs 0 -0.00012(2) 0 0 0 0 0.00000(3) 0 -0.00004(6) 0
+ cu04 Cu -0.00010(8) 0 0 -0.00006(3) -0.00054(5) -0.00074(13) 0 0 0
+ 0
+
+loop_
+ _jana_atom_site_ADP_D_label
+ _jana_atom_site_ADP_D_type_symbol
+ _jana_atom_site_ADP_D_1111
+ _jana_atom_site_ADP_D_1112
+ _jana_atom_site_ADP_D_1113
+ _jana_atom_site_ADP_D_1122
+ _jana_atom_site_ADP_D_1123
+ _jana_atom_site_ADP_D_1133
+ _jana_atom_site_ADP_D_1222
+ _jana_atom_site_ADP_D_1223
+ _jana_atom_site_ADP_D_1233
+ _jana_atom_site_ADP_D_1333
+ _jana_atom_site_ADP_D_2222
+ _jana_atom_site_ADP_D_2223
+ _jana_atom_site_ADP_D_2233
+ _jana_atom_site_ADP_D_2333
+ _jana_atom_site_ADP_D_3333
+ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _jana_atom_site_ADP_E_label
+ _jana_atom_site_ADP_E_type_symbol
+ _jana_atom_site_ADP_E_11111
+ _jana_atom_site_ADP_E_11112
+ _jana_atom_site_ADP_E_11113
+ _jana_atom_site_ADP_E_11122
+ _jana_atom_site_ADP_E_11123
+ _jana_atom_site_ADP_E_11133
+ _jana_atom_site_ADP_E_11222
+ _jana_atom_site_ADP_E_11223
+ _jana_atom_site_ADP_E_11233
+ _jana_atom_site_ADP_E_11333
+ _jana_atom_site_ADP_E_12222
+ _jana_atom_site_ADP_E_12223
+ _jana_atom_site_ADP_E_12233
+ _jana_atom_site_ADP_E_12333
+ _jana_atom_site_ADP_E_13333
+ _jana_atom_site_ADP_E_22222
+ _jana_atom_site_ADP_E_22223
+ _jana_atom_site_ADP_E_22233
+ _jana_atom_site_ADP_E_22333
+ _jana_atom_site_ADP_E_23333
+ _jana_atom_site_ADP_E_33333
+ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _jana_atom_site_ADP_F_label
+ _jana_atom_site_ADP_F_type_symbol
+ _jana_atom_site_ADP_F_111111
+ _jana_atom_site_ADP_F_111112
+ _jana_atom_site_ADP_F_111113
+ _jana_atom_site_ADP_F_111122
+ _jana_atom_site_ADP_F_111123
+ _jana_atom_site_ADP_F_111133
+ _jana_atom_site_ADP_F_111222
+ _jana_atom_site_ADP_F_111223
+ _jana_atom_site_ADP_F_111233
+ _jana_atom_site_ADP_F_111333
+ _jana_atom_site_ADP_F_112222
+ _jana_atom_site_ADP_F_112223
+ _jana_atom_site_ADP_F_112233
+ _jana_atom_site_ADP_F_112333
+ _jana_atom_site_ADP_F_113333
+ _jana_atom_site_ADP_F_122222
+ _jana_atom_site_ADP_F_122223
+ _jana_atom_site_ADP_F_122233
+ _jana_atom_site_ADP_F_122333
+ _jana_atom_site_ADP_F_123333
+ _jana_atom_site_ADP_F_133333
+ _jana_atom_site_ADP_F_222222
+ _jana_atom_site_ADP_F_222223
+ _jana_atom_site_ADP_F_222233
+ _jana_atom_site_ADP_F_222333
+ _jana_atom_site_ADP_F_223333
+ _jana_atom_site_ADP_F_233333
+ _jana_atom_site_ADP_F_333333
+ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 10. MOLECULAR GEOMETRY
+
+
+loop_
+ _geom_bond_atom_site_label_1
+ _geom_bond_atom_site_label_2
+ _geom_bond_site_symmetry_1
+ _geom_bond_site_symmetry_2
+ _geom_bond_distance
+ _geom_bond_publ_flag
+ ? ? ? ? ? ?
+
+loop_
+ _geom_angle_atom_site_label_1
+ _geom_angle_atom_site_label_2
+ _geom_angle_atom_site_label_3
+ _geom_angle_site_symmetry_1
+ _geom_angle_site_symmetry_2
+ _geom_angle_site_symmetry_3
+ _geom_angle
+ _geom_angle_publ_flag
+ ? ? ? ? ? ? ? ?
+
+loop_
+ _geom_torsion_atom_site_label_1
+ _geom_torsion_atom_site_label_2
+ _geom_torsion_atom_site_label_3
+ _geom_torsion_atom_site_label_4
+ _geom_torsion_site_symmetry_1
+ _geom_torsion_site_symmetry_2
+ _geom_torsion_site_symmetry_3
+ _geom_torsion_site_symmetry_4
+ _geom_torsion
+ _geom_torsion_publ_flag
+ ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _geom_hbond_atom_site_label_D
+ _geom_hbond_atom_site_label_H
+ _geom_hbond_atom_site_label_A
+ _geom_hbond_site_symmetry_D
+ _geom_hbond_site_symmetry_H
+ _geom_hbond_site_symmetry_A
+ _geom_hbond_distance_DH
+ _geom_hbond_distance_HA
+ _geom_hbond_distance_DA
+ _geom_hbond_angle_DHA
+ _geom_hbond_publ_flag
+ ? ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 11. STRUCTURE-FACTOR LIST
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_F_squared_calc
+ _refln_F_squared_meas
+ _refln_F_squared_sigma
+ _refln_observed_status
+   4   0   0 158372.00 159122.00    317.70 o
+   6   0   0  82061.00  81366.00    305.02 o
+   8   0   0  63317.00  65468.20    318.60 o
+  10   0   0  28509.40  28936.10    215.64 o
+  12   0   0   1151.96   1149.83     36.56 o
+  14   0   0  55255.70  57284.60    313.53 o
+   3   1   0     85.41    111.08      9.02 o
+   5   1   0  26582.40  25947.00    103.54 o
+   7   1   0 107087.00 107701.00    282.33 o
+   9   1   0  21075.20  20479.10    119.90 o
+  11   1   0   2821.33   2790.51     50.81 o
+  13   1   0    644.11    655.59     26.11 o
+   2   2   0  28062.30  28055.60    112.28 o
+   4   2   0  50060.50  49534.20    123.88 o
+   6   2   0   1553.61   1462.44     30.86 o
+   8   2   0     85.24     94.47     10.44 o
+  10   2   0  11739.90  12105.20     94.57 o
+  12   2   0   1168.70   1099.99     34.66 o
+  14   2   0    586.53    564.44     24.69 o
+   1   3   0  55697.30  57891.30    129.91 o
+   3   3   0  56191.90  53215.20    129.06 o
+   5   3   0  32729.30  32620.10    103.13 o
+   7   3   0     39.40     59.81      6.17 o
+   9   3   0  10354.30  10496.60     95.99 o
+  11   3   0  12481.70  12611.10    101.69 o
+  13   3   0   7758.72   7659.34     88.34 o
+   0   4   0 161809.00 168789.00    436.62 o
+   2   4   0    169.10    184.67      8.55 o
+   4   4   0 295371.00 290427.00    310.08 o
+   6   4   0     18.46     40.35      6.17 o
+   8   4   0   7309.11   7669.45     84.09 o
+  10   4   0  68461.20  70634.60    249.36 o
+  12   4   0     42.79     42.25      8.07 o
+   1   5   0   3657.00   3829.43     32.78 o
+   3   5   0 243196.00 236786.00    353.71 o
+   5   5   0    239.99    253.98     11.87 o
+   7   5   0  41803.60  41200.60    163.65 o
+   9   5   0    749.31    716.85     22.79 o
+  11   5   0  47375.50  46631.80    212.07 o
+  13   5   0     18.04     24.68      6.65 o
+   0   6   0  64595.90  65059.50    233.28 o
+   2   6   0  13715.60  13367.50     82.81 o
+   4   6   0    816.75    773.86     15.19 o
+   6   6   0  30481.10  30383.40    127.24 o
+   8   6   0  18192.50  18114.70    117.00 o
+  10   6   0   1142.81   1169.31     35.61 o
+  12   6   0   4851.75   4778.17     72.66 o
+   1   7   0  10662.40  10854.50     90.83 o
+   3   7   0    269.36    280.56     14.24 o
+   5   7   0   6516.07   6376.85     60.81 o
+   7   7   0  53237.10  54127.70    198.14 o
+   9   7   0   9116.96   9083.38     87.89 o
+  11   7   0   1849.43   1858.72     46.53 o
+   0   8   0 189396.00 182864.00    959.85 o
+   2   8   0  40155.40  40666.80    203.88 o
+   4   8   0   9021.32   9425.27    111.21 o
+   6   8   0   2721.52   2729.41     43.21 o
+   8   8   0   4766.38   4656.55     70.76 o
+  10   8   0    914.82    927.16     29.91 o
+  12   8   0   1915.39   1947.96     44.15 o
+   1   9   0  58051.10  56582.30    188.01 o
+   3   9   0  37882.00  37071.50    200.80 o
+   5   9   0    472.76    472.83     19.94 o
+   7   9   0 135558.00 136369.00    309.71 o
+   9   9   0    146.50    146.21     11.87 o
+  11   9   0  15738.70  15833.30    129.27 o
+   0  10   0  24644.30  24930.00    163.79 o
+   2  10   0   6069.36   6095.73     68.41 o
+   4  10   0   4757.30   4776.07     61.27 o
+   6  10   0   3554.54   3551.99     50.34 o
+   8  10   0     32.94     37.03      5.70 o
+  10  10   0    567.65    596.72     23.26 o
+   1  11   0   1859.20   1873.08     36.08 o
+   3  11   0  58181.30  58679.80    244.52 o
+   5  11   0   2642.74   2715.03     46.06 o
+   7  11   0   7048.24   7356.14     81.70 o
+   9  11   0   1347.60   1344.02     36.08 o
+  11  11   0  19469.40  19339.10    145.93 o
+   0  12   0   8100.71   8149.21     85.52 o
+   2  12   0   9454.41   9499.09     91.23 o
+   4  12   0  36150.10  35438.80    174.80 o
+   6  12   0   5974.36   5942.48     63.17 o
+   8  12   0     78.46     94.94     11.39 o
+  10  12   0   9901.96   9776.01    100.71 o
+   1  13   0    236.84    278.18     15.19 o
+   3  13   0  54720.10  55010.40    258.07 o
+   5  13   0    212.20    219.32     14.24 o
+   7  13   0  13788.10  13983.30    103.12 o
+   9  13   0      1.29     12.34      7.60 <
+   0  14   0   1646.73   1650.30     44.63 o
+   2  14   0   2007.43   2084.77     46.53 o
+   4  14   0  17916.80  17543.70    144.04 o
+   6  14   0    251.35    253.97     16.14 o
+   8  14   0      9.92     18.51      7.12 o
+   1  15   0  13444.90  13361.50    106.92 o
+   3  15   0   1999.29   2026.34     45.10 o
+   5  15   0   1601.92   1585.69     40.35 o
+   7  15   0  20989.90  21051.00    147.84 o
+   0  16   0  44587.40  44687.10    249.57 o
+   2  16   0   1757.14   1774.19     43.20 o
+   4  16   0   5823.43   5850.74     73.13 o
+   1  17   0   1467.19   1446.56     32.76 o
+   3  17   0   1100.65   1137.47     33.23 o
+   1   1   1    207.57    223.61     13.77 o
+   3   1   1  28689.90  29348.30     76.56 o
+   5   1   1  20003.40  19436.80     70.51 o
+   7   1   1  31436.50  32392.60    132.53 o
+   9   1   1  12719.50  12802.40     72.73 o
+  11   1   1   7357.05   7279.44     55.10 o
+  13   1   1   1246.46   1257.60     26.11 o
+   0   2   1    585.60    604.92     31.34 o
+   2   2   1 432776.00 430477.00    283.50 o
+   4   2   1   5976.62   6170.40     37.55 o
+   6   2   1 103956.00  99966.00    188.07 o
+   8   2   1  42761.90  43156.30    136.92 o
+  10   2   1   5953.91   5895.79     50.82 o
+  12   2   1  46929.00  47430.20    146.75 o
+   1   3   1  40922.90  43342.10     86.55 o
+   3   3   1    130.98    137.67      5.70 o
+   5   3   1  85059.20  83251.20    152.17 o
+   7   3   1   5557.19   5547.06     46.08 o
+   9   3   1  42402.90  42468.80    142.55 o
+  11   3   1    335.87    337.05     12.82 o
+  13   3   1   6666.07   6581.56     56.04 o
+   0   4   1  30738.50  29303.80    112.01 o
+   2   4   1  11889.20  11946.30     46.18 o
+   4   4   1  17307.90  16358.30     74.29 o
+   6   4   1   9839.12   9983.87     62.27 o
+   8   4   1   4269.86   4301.41     43.69 o
+  10   4   1   6162.83   6066.77     53.67 o
+  12   4   1    840.11    867.81     20.41 o
+   1   5   1    144.04    144.31      5.70 o
+   3   5   1  13205.00  13324.30     52.82 o
+   5   5   1  11878.40  12273.60     61.34 o
+   7   5   1  18605.70  18466.60     92.77 o
+   9   5   1   9269.52   9126.75     61.77 o
+  11   5   1   5364.44   5259.62     50.82 o
+  13   5   1   1392.21   1402.40     26.11 o
+   0   6   1  24611.70  25215.00    116.85 o
+   2   6   1 141738.00 141337.00    204.93 o
+   4   6   1   3043.10   3051.84     28.97 o
+   6   6   1  29101.10  29749.30    104.33 o
+   8   6   1   8856.82   8831.76     62.24 o
+  10   6   1     43.60     53.64      5.22 o
+  12   6   1  19821.30  19834.80     98.41 o
+   1   7   1  76549.40  75034.00    170.65 o
+   3   7   1   9443.69   9576.77     59.90 o
+   5   7   1 120728.00 124337.00    211.11 o
+   7   7   1     94.37    105.86      7.12 o
+   9   7   1  62376.60  62973.70    155.15 o
+  11   7   1   1188.70   1157.43     22.31 o
+   0   8   1  14484.30  14463.70     77.07 o
+   2   8   1    772.52    762.93     17.09 o
+   4   8   1   6481.25   6614.20     50.36 o
+   6   8   1   3305.92   3332.18     36.09 o
+   8   8   1    504.58    534.06     17.56 o
+  10   8   1   3774.42   3786.42     42.74 o
+  12   8   1      0.32     13.77      4.27 o
+   1   9   1  12935.80  12882.80     60.86 o
+   3   9   1    842.06    824.17     17.57 o
+   5   9   1  24492.80  23637.00     95.19 o
+   7   9   1    202.40    207.45      9.97 o
+   9   9   1  16363.10  16776.30     97.45 o
+  11   9   1    100.48    102.54      7.60 o
+   0  10   1  30134.90  30239.70    121.01 o
+   2  10   1  37021.90  37714.20    115.85 o
+   4  10   1  10746.00  10676.90     63.68 o
+   6  10   1   5677.14   5693.80     47.50 o
+   8  10   1    490.80    503.68     15.67 o
+  10  10   1    849.59    819.39     20.41 o
+   1  11   1  33044.10  33136.70    109.57 o
+   3  11   1   2280.79   2267.23     35.14 o
+   5  11   1  61070.90  62034.30    135.11 o
+   7  11   1     49.30     54.12      5.70 o
+   9  11   1  34052.50  34202.10    131.83 o
+   0  12   1     17.66     24.21      4.75 o
+   2  12   1   6546.27   6491.40     51.30 o
+   4  12   1    281.96    286.73     11.87 o
+   6  12   1   1020.12   1000.76     19.46 o
+   8  12   1   2522.85   2452.78     32.76 o
+  10  12   1     71.27     83.07      8.07 o
+   1  13   1  14275.60  14169.30     68.92 o
+   3  13   1   6135.15   6004.89     54.62 o
+   5  13   1  18519.80  18536.40     91.28 o
+   7  13   1   1235.69   1224.84     22.79 o
+   9  13   1  13708.60  13786.00     82.20 o
+   0  14   1   6849.88   6821.63     64.60 o
+   2  14   1  22791.40  23085.90    113.67 o
+   4  14   1   1645.69   1596.16     26.59 o
+   6  14   1   5340.72   5392.38     49.86 o
+   8  14   1    991.28    990.29     20.89 o
+   1  15   1   4953.35   4889.43     42.26 o
+   3  15   1    179.01    199.38     11.87 o
+   5  15   1  15954.00  16221.30     91.25 o
+   7  15   1   1995.99   2002.09     29.44 o
+   0  16   1    514.03    526.94     18.51 o
+   2  16   1   9375.48   9428.33     78.38 o
+   4  16   1   1740.15   1735.72     31.33 o
+   1  17   1   3068.30   3076.72     36.56 o
+   3  17   1   1342.94   1411.89     26.59 o
+   0   0   2 261318.00 255118.00    364.92 o
+   2   0   2   6572.78   6703.23     50.88 o
+   4   0   2 388394.00 409306.00    634.53 o
+   6   0   2   5421.04   5139.27     90.74 o
+   8   0   2  20200.20  20744.30    118.94 o
+  10   0   2  92872.30  93980.50    315.97 o
+  12   0   2    640.09    614.77     25.16 o
+   1   1   2  15330.00  15485.00     51.00 o
+   3   1   2 103117.00  99485.30    150.87 o
+   5   1   2  14035.70  14268.40     84.21 o
+   7   1   2   6123.84   5996.26     49.88 o
+   9   1   2   3843.81   3757.77     41.31 o
+  11   1   2  21397.80  20983.60     97.96 o
+  13   1   2   2849.77   2789.44     37.98 o
+   0   2   2  63855.40  65695.70    133.67 o
+   2   2   2   2447.56   2425.66     20.90 o
+   4   2   2   4036.09   3804.62     37.05 o
+   6   2   2  22072.30  22699.40     93.80 o
+   8   2   2   9741.29   9373.53     62.73 o
+  10   2   2   1760.50   1751.45     28.01 o
+  12   2   2   1534.34   1505.46     27.06 o
+   1   3   2     84.38     87.35      3.80 o
+   3   3   2   7982.78   7696.16     48.97 o
+   5   3   2  37156.80  37986.80    134.61 o
+   7   3   2  43979.80  43914.00    128.37 o
+   9   3   2  27748.10  27560.30    114.24 o
+  11   3   2    143.07    152.86      9.97 o
+  13   3   2     84.69     83.07      7.60 o
+   0   4   2 473871.00 471045.00    487.59 o
+   2   4   2   9771.13   9603.66     42.80 o
+   4   4   2  61587.00  64082.70    164.42 o
+   6   4   2  29327.20  29238.30    114.83 o
+   8   4   2  27140.40  27048.90    106.64 o
+  10   4   2  12083.00  12440.30     82.21 o
+  12   4   2      0.04     -0.47      5.70 <
+   1   5   2  59469.70  60529.40    102.69 o
+   3   5   2  31019.20  30672.50    104.96 o
+   5   5   2    124.76    131.49      7.12 o
+   7   5   2 149657.00 155144.00    261.57 o
+   9   5   2   1603.94   1599.51     25.64 o
+  11   5   2  13972.30  14391.70     90.77 o
+  13   5   2   5462.97   5438.78     50.34 o
+   0   6   2   4601.81   4573.92     39.91 o
+   2   6   2  33513.20  33755.80    101.64 o
+   4   6   2  36463.20  35510.20    112.11 o
+   6   6   2     87.53    102.54      7.12 o
+   8   6   2   2442.47   2400.19     27.54 o
+  10   6   2   8721.84   8680.50     57.01 o
+  12   6   2   3651.94   3675.62     42.73 o
+   1   7   2   4879.28   4645.44     32.30 o
+   3   7   2  47914.20  47235.60    138.08 o
+   5   7   2   2767.04   2878.11     28.49 o
+   7   7   2   1698.61   1719.19     27.06 o
+   9   7   2    970.21    945.68     18.51 o
+  11   7   2  14443.10  14437.00     78.89 o
+   0   8   2  22288.70  22168.30    104.27 o
+   2   8   2  14399.80  14397.40     72.29 o
+   4   8   2  74352.00  74381.50    158.50 o
+   6   8   2   7206.70   7287.33     51.78 o
+   8   8   2     13.42     32.28      5.70 o
+  10   8   2  19429.20  19350.00     88.90 o
+  12   8   2   2177.26   2183.95     31.33 o
+   1   9   2   7559.06   7574.62     47.51 o
+   3   9   2 141561.00 145848.00    252.28 o
+   5   9   2   1577.64   1600.00     23.74 o
+   7   9   2  38381.00  39115.40    137.67 o
+   9   9   2   1598.11   1557.22     25.16 o
+  11   9   2  36020.90  35979.20    126.11 o
+   0  10   2   3596.41   3498.53     50.81 o
+   2  10   2    373.23    385.47     11.39 o
+   4  10   2   7992.97   8023.24     57.49 o
+   6  10   2   3166.17   3196.14     36.09 o
+   8  10   2   2844.73   2825.13     37.98 o
+  10  10   2   5500.24   5488.30     48.91 o
+   1  11   2  22827.00  22759.30     90.40 o
+   3  11   2   4393.87   4032.42     36.57 o
+   5  11   2   1046.60   1056.31     19.94 o
+   7  11   2  42028.50  42301.20    144.80 o
+   9  11   2     76.92     85.45      7.12 o
+   0  12   2  62055.40  61985.40    223.94 o
+   2  12   2  18089.60  17226.90     83.69 o
+   4  12   2   2815.78   2802.86     30.86 o
+   6  12   2    373.92    368.38     12.34 o
+   8  12   2   1661.00   1698.69     30.38 o
+   1  13   2  10571.10  10691.10     66.99 o
+   3  13   2   8442.37   8498.01     55.10 o
+   5  13   2    729.97    723.96     15.67 o
+   7  13   2  46262.90  47082.00    150.52 o
+   0  14   2  28698.60  28640.90    144.17 o
+   2  14   2     68.28     66.93      7.12 o
+   4  14   2    671.87    664.62     15.67 o
+   6  14   2   8068.16   8336.84     59.85 o
+   1  15   2   1575.10   1581.90     26.59 o
+   3  15   2  20857.70  20733.90     91.28 o
+   5  15   2   2389.51   2426.14     30.86 o
+   0  16   2   9339.11   9536.99     85.98 o
+   2  16   2    167.29    168.52      9.49 o
+   4  16   2  23349.70  23061.90    109.36 o
+   1  17   2    362.49    370.28     12.34 o
+   1   1   3     82.34     85.45      4.75 o
+   3   1   3  17946.40  17342.00     92.84 o
+   5   1   3  13762.20  13062.40     69.44 o
+   7   1   3  23642.10  23873.40     97.57 o
+   9   1   3   9732.57   9889.39     66.99 o
+  11   1   3   5890.08   5879.07     54.14 o
+  13   1   3    979.52    932.38     22.31 o
+   0   2   3    383.62    394.03     16.14 o
+   2   2   3 264942.00 278385.00    313.58 o
+   4   2   3   4137.53   4099.62     43.70 o
+   6   2   3  74693.30  74475.90    182.97 o
+   8   2   3  32533.70  33468.90    126.21 o
+  10   2   3   4823.46   4869.11     47.01 o
+  12   2   3  37479.60  37235.30    138.51 o
+   1   3   3  24524.80  25124.70    103.92 o
+   3   3   3     48.73     65.51      5.70 o
+   5   3   3  59873.30  59662.20    162.17 o
+   7   3   3   4347.19   4321.81     41.79 o
+   9   3   3  33223.50  32874.70    132.84 o
+  11   3   3    267.68    281.03     12.82 o
+   0   4   3  20515.20  20103.90    142.40 o
+   2   4   3   7565.04   7749.92     55.60 o
+   4   4   3  11740.10  11247.70     62.76 o
+   6   4   3   7810.09   7832.91     57.49 o
+   8   4   3   3294.64   3363.86     39.89 o
+  10   4   3   4665.40   4706.10     52.24 o
+  12   4   3    755.78    782.35     22.79 o
+   1   5   3    136.04    143.84      8.07 o
+   3   5   3   9994.56  10163.40     57.52 o
+   5   5   3   8718.43   8473.15     57.50 o
+   7   5   3  13682.00  13560.10     76.53 o
+   9   5   3   6734.08   6570.86     57.47 o
+  11   5   3   4355.42   4361.56     48.91 o
+   0   6   3  15884.40  15410.90     97.53 o
+   2   6   3  97964.70  99770.70    188.03 o
+   4   6   3   2488.53   2444.97     30.39 o
+   6   6   3  22819.10  22560.00     88.98 o
+   8   6   3   6709.54   6404.77     50.82 o
+  10   6   3     11.79     15.67      4.75 o
+  12   6   3  16499.30  16356.80     96.95 o
+   1   7   3  55905.20  56739.50    132.90 o
+   3   7   3   6190.50   6275.43     45.13 o
+   5   7   3  91288.60  92862.20    200.36 o
+   7   7   3    139.11    144.79      7.60 o
+   9   7   3  47911.80  47725.40    153.93 o
+  11   7   3    948.59    921.46     22.31 o
+   0   8   3   9632.44   9879.82     92.20 o
+   2   8   3    708.08    699.77     16.14 o
+   4   8   3   5365.50   5271.24     46.07 o
+   6   8   3   2179.88   2155.59     29.91 o
+   8   8   3    434.07    436.27     13.77 o
+  10   8   3   3367.71   3292.40     38.46 o
+   1   9   3   9081.60   8918.49     56.55 o
+   3   9   3    913.33    913.41     18.04 o
+   5   9   3  18333.50  18200.40     87.50 o
+   7   9   3    247.13    241.63     10.44 o
+   9   9   3  13812.40  13661.50     81.26 o
+  11   9   3     78.37     77.85      7.12 o
+   0  10   3  24641.10  24490.80    153.24 o
+   2  10   3  28540.50  28397.80     93.78 o
+   4  10   3   7822.86   7712.90     53.21 o
+   6  10   3   3789.22   3872.92     44.16 o
+   8  10   3    393.35    414.90     14.24 o
+  10  10   3    548.63    567.29     16.62 o
+   1  11   3  24521.10  24149.60    119.43 o
+   3  11   3   2239.19   2216.36     28.49 o
+   5  11   3  47159.90  48086.90    151.08 o
+   7  11   3     88.54     84.50      6.65 o
+   9  11   3  28734.10  28687.40    127.95 o
+   0  12   3     78.41     80.70     12.34 o
+   2  12   3   5418.82   5492.51     46.54 o
+   4  12   3    323.80    329.45     10.92 o
+   6  12   3    580.18    588.66     17.09 o
+   8  12   3   2087.02   2344.42     32.76 o
+   1  13   3  11860.20  11813.10     88.38 o
+   3  13   3   4229.63   4297.98     39.89 o
+   5  13   3  15180.00  15178.00     89.82 o
+   7  13   3   1222.42   1226.73     26.59 o
+   0  14   3   4795.60   4529.86     74.56 o
+   2  14   3  17498.90  17739.10     88.89 o
+   4  14   3   1567.15   1612.27     25.64 o
+   6  14   3   4871.64   4975.13     52.23 o
+   1  15   3   4273.93   4134.51     46.06 o
+   3  15   3    278.61    276.76     11.39 o
+   5  15   3  13248.90  12728.70     76.50 o
+   0  16   3    622.07    649.42     29.43 o
+   2  16   3   7307.85   7210.03     64.12 o
+   0   0   4 393310.00 361622.00    781.05 o
+   2   0   4     49.37     58.86      6.65 o
+   4   0   4  83988.20  86241.70    251.30 o
+   6   0   4  38423.30  40181.10    171.12 o
+   8   0   4  34934.20  35691.90    167.15 o
+  10   0   4  20367.40  19776.60    159.28 o
+  12   0   4    702.99    675.53     26.58 o
+   1   1   4   3882.12   3921.73     35.62 o
+   3   1   4    539.01    581.55     14.72 o
+   5   1   4  13317.40  13197.70     70.36 o
+   7   1   4  51947.90  52085.00    141.71 o
+   9   1   4  11520.40  11552.20     70.32 o
+  11   1   4   2255.40   2217.70     34.66 o
+   0   2   4   4341.25   4038.33     53.67 o
+   2   2   4  10499.20  10352.00     56.57 o
+   4   2   4  19124.50  19042.10     83.74 o
+   6   2   4    218.40    244.95      9.97 o
+   8   2   4    172.85    174.69      9.97 o
+  10   2   4   5786.24   5827.23     54.62 o
+  12   2   4    839.44    863.53     22.79 o
+   1   3   4  19989.10  19951.30     89.48 o
+   3   3   4  19860.70  19633.40     79.95 o
+   5   3   4  17740.80  17665.80     82.28 o
+   7   3   4    109.30    117.73      7.60 o
+   9   3   4   7358.98   7332.45     63.17 o
+  11   3   4   6905.34   7018.18     67.44 o
+   0   4   4  81820.10  78318.40    356.41 o
+   2   4   4    218.46    224.54      9.02 o
+   4   4   4 137528.00 133595.00    214.54 o
+   6   4   4    158.59    148.58      8.07 o
+   8   4   4   5067.99   4966.63     54.14 o
+  10   4   4  39095.80  38841.90    145.69 o
+   1   5   4   2911.85   2950.36     33.72 o
+   3   5   4 109946.00 110818.00    178.81 o
+   5   5   4    114.70    119.63      6.65 o
+   7   5   4  28784.80  28798.20    109.94 o
+   9   5   4    278.99    280.55     12.82 o
+  11   5   4  28889.60  29130.70    126.05 o
+   0   6   4  25625.50  25966.20    142.83 o
+   2   6   4   8168.17   8066.90     51.31 o
+   4   6   4     34.15     44.15      4.27 o
+   6   6   4  14976.00  14485.40     72.73 o
+   8   6   4  10263.20  10246.10     65.56 o
+  10   6   4    334.06    347.49     14.24 o
+   1   7   4   3941.81   3906.09     38.47 o
+   3   7   4     32.16     36.55      5.22 o
+   5   7   4   3661.93   3599.96     38.46 o
+   7   7   4  27562.80  27031.70    102.30 o
+   9   7   4   5136.71   5132.57     47.49 o
+  11   7   4   1526.28   1541.99     30.86 o
+   0   8   4  91326.80  92631.70    266.42 o
+   2   8   4  21097.20  20531.20     78.49 o
+   4   8   4   6934.90   6917.14     48.45 o
+   6   8   4    884.92    871.62     18.99 o
+   8   8   4   2482.06   2467.97     31.34 o
+  10   8   4    942.40    933.32     21.36 o
+   1   9   4  29761.00  30155.50     98.55 o
+   3   9   4  26295.20  26188.00     94.22 o
+   5   9   4    342.79    337.05     11.87 o
+   7   9   4  78398.30  78142.20    184.85 o
+   9   9   4     34.56     41.77      5.70 o
+   0  10   4  10978.10  11135.80     86.48 o
+   2  10   4   3163.34   3167.63     34.66 o
+   4  10   4   1901.49   1861.13     27.06 o
+   6  10   4   1508.05   1516.85     25.16 o
+   8  10   4      2.64      9.02      4.75 <
+   1  11   4   1699.26   1630.36     25.64 o
+   3  11   4  31413.60  31068.40    107.56 o
+   5  11   4   1607.70   1574.78     25.16 o
+   7  11   4   5636.75   5542.98     52.24 o
+   0  12   4   6384.50   6079.33     69.82 o
+   2  12   4   6424.82   6382.80     52.72 o
+   4  12   4  19958.00  20146.80     93.18 o
+   6  12   4   3210.94   3172.21     38.46 o
+   1  13   4    311.37    310.46     11.87 o
+   3  13   4  31516.80  32216.60    111.34 o
+   5  13   4    152.35    159.50      8.54 o
+   0  14   4   1657.98   1563.85     36.56 o
+   2  14   4   1146.97   1155.52     23.26 o
+   4  14   4  10389.10  10474.20     64.61 o
+   1  15   4   8043.76   7906.71     60.32 o
+   1   1   5     34.30     38.45      3.80 o
+   3   1   5  10091.50  10344.40     63.68 o
+   5   1   5   7527.66   7506.24     65.08 o
+   7   1   5  14162.40  14228.10     83.17 o
+   9   1   5   5815.36   5807.72     52.24 o
+  11   1   5   3927.85   3717.43     43.68 o
+   0   2   5    126.05    125.80      8.07 o
+   2   2   5 139545.00 143771.00    219.73 o
+   4   2   5   2230.47   2274.33     31.34 o
+   6   2   5  44532.90  44292.50    155.38 o
+   8   2   5  19889.80  19908.80    103.65 o
+  10   2   5   2987.35   2987.94     39.41 o
+   1   3   5  13295.20  13331.20     62.28 o
+   3   3   5     72.95     80.23      5.70 o
+   5   3   5  34404.20  33945.30    131.44 o
+   7   3   5   2416.08   2374.00     35.61 o
+   9   3   5  20196.70  20863.60    106.50 o
+   0   4   5  10361.50  10628.80     85.54 o
+   2   4   5   4531.47   4415.36     38.47 o
+   4   4   5   7275.23   7339.77     53.68 o
+   6   4   5   4289.32   4189.87     44.64 o
+   8   4   5   2151.14   2102.81     32.29 o
+  10   4   5   3337.67   3368.80     47.48 o
+   1   5   5     20.34     23.74      3.32 o
+   3   5   5   5099.83   5214.81     43.22 o
+   5   5   5   4699.78   4635.52     45.59 o
+   7   5   5   9092.00   9102.98     63.66 o
+   9   5   5   4627.92   4439.96     48.44 o
+   0   6   5  10132.80  10546.00     87.43 o
+   2   6   5  56336.90  56259.30    147.96 o
+   4   6   5   1231.46   1209.20     21.84 o
+   6   6   5  12561.30  12552.40     74.61 o
+   8   6   5   4231.06   4164.94     43.69 o
+  10   6   5     36.20     44.62      7.12 o
+   1   7   5  31158.60  31972.10    111.40 o
+   3   7   5   4516.69   4642.10     40.84 o
+   5   7   5  54279.90  53208.60    150.69 o
+   7   7   5     34.52     42.25      5.22 o
+   9   7   5  32579.80  31867.90    121.32 o
+   0   8   5   6880.17   6997.15     71.72 o
+   2   8   5    345.27    367.90     11.87 o
+   4   8   5   2878.81   2881.19     31.81 o
+   6   8   5   1869.03   1856.35     29.91 o
+   8   8   5    271.99    277.71     11.39 o
+   1   9   5   5994.83   6081.67     50.34 o
+   3   9   5    277.73    275.81      9.97 o
+   5   9   5  11776.20  11860.90     66.99 o
+   7   9   5     65.67     70.73      6.65 o
+   0  10   5  13520.40  12955.10     91.72 o
+   2  10   5  16340.00  15567.90     77.00 o
+   4  10   5   5654.11   5676.58     49.39 o
+   6  10   5   2994.19   2963.73     37.98 o
+   1  11   5  16282.50  16197.80     74.15 o
+   3  11   5    940.84    928.58     19.94 o
+   5  11   5  30961.60  31514.10    119.89 o
+   0  12   5      0.12      6.17      4.27 <
+   2  12   5   3083.70   3066.79     35.14 o
+   4  12   5     99.35     99.69      6.65 o
+   1  13   5   7053.82   6882.31     53.19 o
+   3  13   5   3574.53   3548.32     42.73 o
+   0   0   6  83325.90  86188.70    375.07 o
+   2   0   6   1262.40   1304.63     29.43 o
+   4   0   6 104332.00 108291.00    304.65 o
+   6   0   6   3724.63   3709.48     66.48 o
+   8   0   6   9133.68   9373.07    116.38 o
+   1   1   6   2292.05   2391.58     28.49 o
+   3   1   6  21015.80  21454.00     91.31 o
+   5   1   6   4967.79   5048.17     48.91 o
+   7   1   6   4157.23   3992.09     52.23 o
+   9   1   6   2226.56   2269.42     38.93 o
+   0   2   6  10611.30  10293.50     80.78 o
+   2   2   6   1234.87   1272.34     20.41 o
+   4   2   6    161.89    168.52      8.54 o
+   6   2   6   5178.51   5111.32     52.24 o
+   8   2   6   3002.11   3005.52     42.73 o
+   1   3   6    229.17    239.26      9.02 o
+   3   3   6    718.91    711.62     15.67 o
+   5   3   6  12536.90  12664.80     78.41 o
+   7   3   6  11315.20  11206.80     76.49 o
+   9   3   6  10014.30  10109.50     76.00 o
+   0   4   6 117862.00 120354.00    298.85 o
+   2   4   6   2147.03   2104.75     26.59 o
+   4   4   6  26279.80  27375.60    109.90 o
+   6   4   6   7547.18   7525.57     62.70 o
+   8   4   6   9313.62   9391.53     67.93 o
+   1   5   6  14399.40  14064.40     76.52 o
+   3   5   6  15265.90  15389.60     74.15 o
+   5   5   6     18.66     20.41      5.22 o
+   7   5   6  49070.60  49628.60    159.12 o
+   0   6   6    130.88    129.12     11.39 o
+   2   6   6  10005.80  10123.40     65.56 o
+   4   6   6   9245.00   9131.42     57.96 o
+   6   6   6    430.42    428.67     14.72 o
+   8   6   6   1471.32   1444.19     27.06 o
+   1   7   6    771.28    783.31     18.99 o
+   3   7   6  11607.70  11483.10     68.42 o
+   5   7   6   1166.43   1152.20     23.74 o
+   7   7   6   1573.75   1543.42     28.96 o
+   0   8   6  11565.10  11457.90     99.30 o
+   2   8   6   6220.93   6308.99     53.19 o
+   4   8   6  22046.60  21651.20     94.15 o
+   6   8   6   1833.46   1892.40     31.33 o
+   1   9   6   4252.94   4216.23     42.74 o
+   3   9   6  45870.30  46542.50    146.23 o
+   5   9   6    606.13    601.47     16.14 o
+   0  10   6    407.75    424.87     19.94 o
+   2  10   6    299.52    302.87     11.39 o
+   4  10   6   1826.68   1871.04     28.96 o
+   1  11   6   7401.60   7525.54     55.09 o
+   3  11   6   3129.46   3081.47     35.61 o
+   1   1   7      3.00      9.02      3.32 o
+   3   1   7   4914.97   4871.81     47.01 o
+   5   1   7   3524.93   3532.69     38.94 o
+   7   1   7   7590.47   7578.73     64.12 o
+   0   2   7     74.03     66.93      6.65 o
+   2   2   7  67131.20  68614.80    164.63 o
+   4   2   7   1211.70   1210.60     23.26 o
+   6   2   7  22271.60  22520.90    101.75 o
+   1   3   7   6037.67   6010.64     47.97 o
+   3   3   7     11.85     18.04      3.80 o
+   5   3   7  16909.30  17128.10     92.20 o
+   0   4   7   5692.49   5793.89     62.69 o
+   2   4   7   2170.62   2205.35     28.49 o
+   4   4   7   3476.96   3611.02     40.36 o
+   6   4   7   2587.77   2520.64     35.61 o
+   1   5   7     16.85     27.06      4.75 o
+   3   5   7   3090.66   3182.64     35.14 o
+   5   5   7   2411.67   2394.32     35.13 o
+   0   6   7   4371.12   4312.15     64.11 o
+   2   6   7  27085.10  27034.20    108.44 o
+   4   6   7    815.00    842.64     18.51 o
+   1   7   7  16529.40  16829.50     90.30 o
+   3   7   7   1862.74   1869.62     28.49 o
+   0   8   7   2919.73   2876.33     52.23 o
+   2   8   7    277.42    295.74     12.34 o
+   1   9   7   2744.55   2774.19     37.03 o
+   0   0   8  74947.30  71423.20    366.46 o
+   2   0   8     22.06     24.68      6.17 o
+   1   1   8    206.88    201.28      9.97 o
+   0   2   8     62.56     59.81      8.07 o
+   2   2   8   1956.37   1980.72     30.38 o
+   1   3   8   3302.88   3067.73     35.61 o
+
+
+# For import please use the tool of Jana2020 program:
+# "Structure->New->from Jana2020 embedded in CIF"
+
+
+_Jana_m40_file
+;
+    4    0    0    1    0
+ 0.459316 0.000000 0.000000 0.000000 0.000000 0.000000      100000
+ 0.000000 0.000000 0.000000                                 000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000      000000
+ 0.085641 0.000000 0.000000 0.000000 0.000000 0.000000      100000
+i01       2  3     0.250000 0.000000 0.377923 0.750000
+ 0.014497 0.011176 0.013592 0.000000 0.000000 0.000000      0010111000
+ 0.000000 0.000001 0.000000 0.000000 0.000000 0.000000      010000
+-0.000049 0.000000 0.000027 0.000000                        1010
+cs00      3  2     0.250000 0.000000 0.170324 1.250000
+ 0.021908 0.027934 0.012134 0.000000 0.000000 0.000000      0010111000
+i003      2  3     0.500000 0.282696 0.621049 0.750000
+ 0.017507 0.021402 0.013132-0.006517 0.000000 0.000000      0110111100
+ 0.000108-0.000023 0.000000-0.000001 0.000000 0.000042      110101
+ 0.000029 0.000000 0.000002 0.000000                        1010
+cu04      1  3     0.500000 0.146795 0.500000 1.000000
+ 0.019257 0.016510 0.026522 0.000000 0.000000 0.002996      0100111001
+ 0.000120 0.000000 0.000000 0.000054 0.000545 0.000759      100111
+ 0.000000 0.000000 0.000000 0.000000                        0000
+--------------------------   s.u. block   --------------------------------------
+ 0.000692 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.009371 0.000000 0.000000 0.000000 0.000000 0.000000
+i01                0.000000 0.000000 0.000029 0.000000
+ 0.000107 0.000097 0.000104 0.000000 0.000000 0.000000
+ 0.000000 0.000021 0.000000 0.000000 0.000000 0.000000
+ 0.000025 0.000000 0.000054 0.000000
+cs00               0.000000 0.000000 0.000013 0.000000
+ 0.000108 0.000108 0.000093 0.000000 0.000000 0.000000
+i003               0.000000 0.000036 0.000023 0.000000
+ 0.000096 0.000093 0.000091 0.000038 0.000000 0.000000
+ 0.000044 0.000017 0.000000 0.000014 0.000000 0.000068
+ 0.000022 0.000000 0.000040 0.000000
+cu04               0.000000 0.000055 0.000000 0.000000
+ 0.000140 0.000139 0.000147 0.000000 0.000000 0.000081
+ 0.000076 0.000000 0.000000 0.000025 0.000046 0.000133
+ 0.000000 0.000000 0.000000 0.000000
+--------------------------   Saved points   ------------------------------------
+    0
+--------------------------   Critical points   ---------------------------------
+    0
+--------------------------   Fourier maxima   ----------------------------------
+    1    1    1
+Max1      1  1     1.000000 0.500000 0.390036 0.116907      000  0  0  0
+     0.29     0.20
+Max2      1  1     1.000000 0.262979 0.103244 0.132329      000  0  0  0
+     0.30     0.20
+Max3      1  1     1.000000 0.000000 0.208100 0.249951      000  0  0  0
+     0.26     0.18
+Max4      1  1     1.000000 0.210245 0.332674 0.249969      000  0  0  0
+     0.26     0.17
+Max5      1  1     1.000000 0.500000 0.101047 0.249967      000  0  0  0
+     0.29     0.15
+Max6      1  1     1.000000 0.406831 0.053455 0.128012      000  0  0  0
+     0.22     0.14
+Max7      1  1     1.000000 0.000000 0.149554 0.249951      000  0  0  0
+     0.24     0.14
+Max8      1  1     1.000000 0.376699 0.363519 0.063765      000  0  0  0
+     0.19     0.14
+Max9      1  1     1.000000 0.000000 0.338198 0.119710      000  0  0  0
+     0.25     0.14
+Max10     1  1     1.000000 0.500000 0.000000 0.000000      000  0  0  0
+     0.18     0.14
+--------------------------   Fourier minima   ----------------------------------
+    1    1    1
+Min1      1  1     1.000000 0.167478 0.123391 0.249965      000  0  0  0
+     0.37     0.28
+Min2      1  1     1.000000 0.070849 0.420700 0.249961      000  0  0  0
+     0.36     0.25
+Min3      1  1     1.000000 0.357914 0.226045 0.249995      000  0  0  0
+     0.28     0.21
+Min4      1  1     1.000000 0.500000 0.115422 0.024359      000  0  0  0
+     0.30     0.19
+Min5      1  1     1.000000 0.000000 0.044458-0.005830      000  0  0  0
+     0.26     0.18
+--------------------------------------------------------------------------------
+;
+
+
+_Jana_m50_file
+;
+Version Jana2020
+title 240202_cscu2i3_50kev_100k-400k__autored_a.res in cmcm
+cell 10.479 13.039 6.0625 90 90 90
+esdcell 0.0001 0.0001 0.0001 0 0 0
+spgroup Cmcm 63 3
+lattice C
+symmetry x y z
+symmetry -x -y z+1/2
+symmetry -x y -z+1/2
+symmetry x -y -z
+symmetry -x -y -z
+symmetry x y -z+1/2
+symmetry x -y z+1/2
+symmetry -x y z
+unitsnumb 16
+atlist Cu0.625 I0.938 Cs0.312
+formtab -62
+atom Cu atradius 1.28 color 34071220
+atom I atradius 1.33 color 142031138
+atom Cs atradius 2.72 color 14254185
+roundmethod 1
+end
+*******************************************************************************
+refine
+  cycles 100 siglevel 2
+  iext 1 itypex 1 idistr 1 radius 0.01
+  !fixed all *
+end refine
+fourier
+end fourier
+dist
+end dist
+contour
+end contour
+;
+
+
+# For import please use the tool of Jana2020 program:
+# "Structure->New->from Jana2020 embedded in CIF"
+
+
+_Jana_m40_file
+;
+    4    0    0    1    0
+ 0.458976 0.000000 0.000000 0.000000 0.000000 0.000000      100000
+ 0.000000 0.000000 0.000000                                 000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000      000000
+ 0.083533 0.000000 0.000000 0.000000 0.000000 0.000000      100000
+i01       2  3     0.250000 0.500000 0.622077 1.250000
+ 0.014420 0.011143 0.013589 0.000000 0.000000 0.000000      0010111000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000      010000
+ 0.000049 0.000000-0.000033 0.000000                        1010
+i002      2  3     0.500000 0.217295 0.621048 0.750000
+ 0.017471 0.021360 0.013121 0.006512 0.000000 0.000000      0110111100
+-0.000093-0.000016 0.000000-0.000002 0.000000-0.000062      110101
+ 0.000030 0.000000-0.000004 0.000000                        1010
+cs00      3  3     0.250000 0.500000 0.829614 1.750000
+ 0.021826 0.027903 0.012117 0.000000 0.000000 0.000000      0010111000
+ 0.000000-0.000119 0.000000 0.000000 0.000000 0.000000      010000
+-0.000002 0.000000-0.000044 0.000000                        1010
+cu04      1  3     0.500000 0.353201 0.500000 1.000000
+ 0.019250 0.016463 0.026484 0.000000 0.000000 0.002995      0100111001
+-0.000104 0.000000 0.000000-0.000056-0.000541-0.000744      100111
+ 0.000000 0.000000 0.000000 0.000000                        0000
+--------------------------   s.u. block   --------------------------------------
+ 0.000684 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.009202 0.000000 0.000000 0.000000 0.000000 0.000000
+i01                0.000000 0.000000 0.000029 0.000000
+ 0.000107 0.000095 0.000104 0.000000 0.000000 0.000000
+ 0.000000 0.000020 0.000000 0.000000 0.000000 0.000000
+ 0.000025 0.000000 0.000053 0.000000
+i002               0.000000 0.000037 0.000023 0.000000
+ 0.000096 0.000091 0.000090 0.000038 0.000000 0.000000
+ 0.000044 0.000017 0.000000 0.000014 0.000000 0.000067
+ 0.000021 0.000000 0.000039 0.000000
+cs00               0.000000 0.000000 0.000034 0.000000
+ 0.000108 0.000109 0.000091 0.000000 0.000000 0.000000
+ 0.000000 0.000024 0.000000 0.000000 0.000000 0.000000
+ 0.000032 0.000000 0.000063 0.000000
+cu04               0.000000 0.000055 0.000000 0.000000
+ 0.000138 0.000137 0.000145 0.000000 0.000000 0.000079
+ 0.000075 0.000000 0.000000 0.000025 0.000045 0.000131
+ 0.000000 0.000000 0.000000 0.000000
+--------------------------   Saved points   ------------------------------------
+    0
+--------------------------   Critical points   ---------------------------------
+    0
+--------------------------   Fourier maxima   ----------------------------------
+    1    1    1
+Max1      1  1     1.000000-0.000000 0.387198 0.119367      000  0  0  0
+     0.31     0.21
+Max2      1  1     1.000000 0.235492 0.098464 0.133662      000  0  0  0
+     0.29     0.19
+Max3      1  1     1.000000 0.500000 0.146468 0.249952      000  0  0  0
+     0.28     0.18
+Max4      1  1     1.000000 0.289841 0.331888 0.249967      000  0  0  0
+     0.25     0.17
+Max5      1  1     1.000000-0.000000 0.102426 0.249965      000  0  0  0
+     0.31     0.16
+Max6      1  1     1.000000 0.127902 0.362729 0.062124      000  0  0  0
+     0.19     0.15
+Max7      1  1     1.000000 0.500000 0.338791 0.119677      000  0  0  0
+     0.25     0.14
+Max8      1  1     1.000000 0.092618 0.052056 0.129380      000  0  0  0
+     0.22     0.14
+Max9      1  1     1.000000 0.500000 0.206681 0.249949      000  0  0  0
+     0.23     0.14
+Max10     1  1     1.000000-0.000000 0.000000 0.000000      000  0  0  0
+     0.17     0.13
+--------------------------   Fourier minima   ----------------------------------
+    1    1    1
+Min1      1  1     1.000000 0.333761 0.122322 0.249966      000  0  0  0
+     0.36     0.27
+Min2      1  1     1.000000 0.428857 0.419775 0.249961      000  0  0  0
+     0.37     0.25
+Min3      1  1     1.000000 0.144579 0.221432 0.249998      000  0  0  0
+     0.28     0.21
+Min4      1  1     1.000000-0.000000 0.114964 0.025650      000  0  0  0
+     0.28     0.18
+Min5      1  1     1.000000 0.500000 0.043772-0.006216      000  0  0  0
+     0.27     0.18
+--------------------------------------------------------------------------------
+;
+
+
+_Jana_m50_file
+;
+Version Jana2020
+title 240202_cscu2i3_50kev_100k-400k__autored_a.res in cmcm
+cell 10.479 13.039 6.0625 90 90 90
+esdcell 0.0001 0.0001 0.0001 0 0 0
+spgroup Cmcm 63 3
+lattice C
+symmetry x y z
+symmetry -x -y z+1/2
+symmetry -x y -z+1/2
+symmetry x -y -z
+symmetry -x -y -z
+symmetry x y -z+1/2
+symmetry x -y z+1/2
+symmetry -x y z
+unitsnumb 16
+atlist Cu0.625 I0.938 Cs0.312
+formtab -62
+atom Cu atradius 1.28 color 34071220
+atom I atradius 1.33 color 142031138
+atom Cs atradius 2.72 color 14254185
+roundmethod 1
+end
+*******************************************************************************
+refine
+  cycles 100 siglevel 2
+  iext 1 itypex 1 idistr 1 radius 0.01
+  !fixed all *
+end refine
+fourier
+end fourier
+dist
+end dist
+contour
+end contour
+;
